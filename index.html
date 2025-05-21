@@ -14,9 +14,13 @@
 
 
      <button type="button" onclick="changeText()">On one Click</button>
-     <button type="button" ondblclick="changeBodyClr()" onclick="bodyClrChange()">Toggle Dark Mode</button>
+     <button type="button" ondblclick="changeBodyClr()" onclick="bodyClrChange()">Toggle Dark Mode</button><br><br>
 
 
+
+    <input type="number" id="celsiusInput" placeholder="Enter Celsius (e.g., 25)" 
+  oninput="convertAndColor()">
+<p id="fahrenheitOutput">Fahrenheit: </p>
 
     <script src="./java.js"></script>
 </body>
